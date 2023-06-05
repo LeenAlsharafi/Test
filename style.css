@@ -1,0 +1,525 @@
+@import "~bootstrap/scss/bootstrap.scss";
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  nav ul li {
+    display: inline;
+    color: #111111;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 8px;
+    color: #000000;
+  }
+  .logo , nav{
+    display: inline;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    font-style: inherit;
+
+  }
+  nav {
+    pointer-events: initial;
+    margin: -54px 0 0 auto;
+    opacity: 1;
+    display: table;
+    white-space: nowrap;
+    position: relative;
+    line-height: 1;
+    box-sizing: border-box;
+  }
+  .logoImg {
+    margin-left: 135px;
+    border-style: none;
+    white-space: nowrap;
+    float: left;
+  }
+
+  header {
+    width: 93%; 
+    margin-top: 30px;
+    margin-left: 98px;
+    background-image: none;
+    color: #111111;
+    background-color: #ffffff;
+    border-top: 15px solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 111px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    box-shadow: 8px 8px 5px rgb(60, 67, 69);
+    font-size: 19px;
+    font-weight: normal;
+  }
+  
+   header a:visited,  header a:active  {
+    color: #000000;
+  }
+  header a:hover {
+    color: #5534e9;
+    font-size: 18.5px;
+  }
+  h5 {
+    line-height: 4;
+  }
+
+  .logoText {  
+    font-size: 1.125rem;
+    line-height: 4 !important;
+    margin-top: 40px !important;
+    word-wrap: break-word;
+    position: absolute;
+    display: table;
+    padding: 0;
+    box-sizing: border-box;
+    --effect-scale: 1.1;   
+    margin-left: 300px; 
+    bottom: 0px;
+  }
+  li {
+    color: black;
+    font-size: 18px;
+    margin-right: 40px;
+  }
+  .lastitem {
+    margin-right: 70px ;
+  }
+
+  #Home {
+    /*
+    background-image: url("images/2.png");
+    background-size: 1800px;
+    background-position-y: 50px;
+    background-position-x: 50px;
+    background-repeat: no-repeat; */
+    height: 540px;
+  }
+
+  .div1-home {
+  
+    width: 800px;
+    float: left;
+  }
+  .div1-home h1 {
+  
+    margin-top: 120px;
+  font-family: "Rockwell";
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-size: 72px;
+  overflow: auto;
+  text-align: center;
+  color: #270C9B;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.div1-home h6 {
+    font-size: 1.125rem;
+    line-height: 4;
+    color: #686868;
+    text-align: center;
+
+}
+.div1-home button , .div2-project button , .contact-form input[type=submit] , #custom-btn , .closebtn{
+    margin: auto;
+display: block;
+width: 240px;
+height: 80px;
+background-image: linear-gradient(to right, darkblue, darkorchid 51%, #314755 100%);
+text-align: center;
+text-transform: uppercase;
+background-size: 200% auto;
+color: white;
+border-radius: 90px;
+border: 0;
+box-shadow: 0 3px 0 0 #6248dc;
+transition: all 0.3s ease-in-out;
+font-size: 20px;
+overflow: visible;
+outline: none;
+box-sizing: border-box;
+pointer-events: initial;
+cursor: pointer;
+}
+.div1-home button {
+  margin-top: 40px;
+}
+.div1-home button:hover , .div2-project button:hover , .contact-form input[type=submit]:hover , #custom-btn:hover , .closebtn:hover{
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+.closebtn {
+  width: 120px;
+  height: 40px;
+}
+#custom-btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.div1-home button a , .div2-project button a{
+    color: white;
+    cursor: pointer;
+}
+  .div2-home {
+    float: left;
+  }
+.div2-home .img1 {
+  width: 349px;
+height: 350px;
+margin: 0 auto 0;
+animation-name: floating;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+transform: translateY(0);
+opacity: 1;
+object-fit: contain;
+background-size: contain;
+position: relative;
+transition: 1s all ease;
+margin: auto;
+margin-top: 67px;
+margin-left: 80px;
+}
+.div2-home .img2 {
+  width: 200px;
+height: 250px;
+animation-name: floating;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+transform: translateY(0);
+opacity: 1;
+object-fit: contain;
+background-size: contain;
+position: relative;
+transition: 1s all ease;
+margin-bottom: 50px;
+}
+.div2-home h2 {
+    margin-left: 200px;
+    font-size: 30px;
+    line-height: 4;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+#UploadSection {
+    height: 700px;
+    background-image: url("images/1.png");
+    background-repeat: no-repeat;
+background-size: auto;
+margin-top: 0;
+margin-bottom: 30px;
+}
+
+#Project {
+  height: 630px;
+}
+
+#Project div h1, #Project div{
+  display: inline;
+}
+.div1-project {
+  width: 580px;
+  float: left;
+  height: 630px;
+  margin-left: 200px;
+  margin-top: 50px;
+
+}
+
+.div1-project h1 , #Team h1 , #Contact h1, #UploadSection h1{
+  font-weight: 900;
+margin: 15px 20px 0 40px;
+margin-left: 300px;
+transition: 0.5s;
+transform-origin: left;
+
+transform: translateY(3);
+opacity: 1;
+font-size: 3rem;
+line-height: 1.1;
+position: relative;
+transition: 1s all ease;
+word-wrap: break-word;
+font-family: Roboto,sans-serif;
+box-sizing: border-box;
+text-align: left;
+margin: 0 0 10px 0;
+text-align: center;
+  
+  }
+  #UploadSection h1 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 550px;
+  }
+
+  #Team h1 , #Contact h1 {
+    margin-top: 100px;
+    padding-bottom: 30px;
+  }
+.div1-project h1 span {
+font-size: 1.5rem;
+font-weight: 700;
+transform: translateY(0);
+opacity: 1;
+padding: 0;
+position: relative;
+transition: 1s all ease;
+color: #6248dc !important;
+word-wrap: break-word;
+font-family: Roboto,sans-serif;
+box-sizing: border-box;
+text-align: left;
+}
+
+.div1-project hr , #Team hr, #Contact hr , #UploadSection hr{
+  width: 77px;
+position: relative;
+transform-origin: left center 0;
+margin: 30px auto 0 0;
+color: #6248dc;
+}
+#UploadSection hr {
+  position: absolute;
+  left: 710px;
+  top: 138px;
+}
+#Team hr, #Contact hr {
+  margin: auto;
+  
+  border-width: 2px;
+}
+.div2-project p {
+  margin: 40px 20px 0;
+  transform: translateY(0);
+  opacity: 1;
+  font-size: 1.125rem;
+line-height: 1.6;
+position: relative;
+transition: 1s all ease;
+word-wrap: break-word;
+padding: 0;
+box-sizing: border-box;
+text-align: left;
+font-family: 'Open Sans',sans-serif;
+
+}
+.try {
+  display: inline-block;
+  margin-top: 100px;
+  height: 630px;
+}
+.div2-project {
+  max-width: 550px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: absolute;
+}
+.div2-project button {
+  position: relative;
+  bottom: 180px;
+  right: 150px;
+  width: 200px;
+height: 60px;
+}
+.horizontal {
+  clear: both;
+  margin-top: 20px;
+margin-bottom: 60px;
+transform-origin: right center 0px;
+stroke: none;
+border-right-width: 0;
+border-left-width: 0;
+border-bottom-width: 0;
+border-color: #454545;
+border-width: 1.8px;
+border-style: solid;
+text-align: center;
+width: 75% !important;
+margin: auto;
+position: relative;
+box-sizing: border-box;
+}
+#Team img {
+  border-radius: 50%; 
+  border: 2px #6D4CDF solid;
+}
+#Team div {
+  display: inline;
+  overflow: hidden;
+  float: left;
+  margin-top: 80px;
+  margin-left: 90px;
+  text-align: center;
+}
+#Team h3 {
+  line-height: 2;
+}
+#Team a {
+  color: #6D4CDF;
+}
+.contact-form {
+  padding: 10px;
+  margin-left: -20px;
+width: calc(100% + 20px);
+flex-wrap: wrap;
+align-items: flex-end;
+box-sizing: border-box;
+pointer-events: initial;
+font-size: 1rem;
+line-height: 1.6;
+}
+.contact-form input[type=text], .contact-form input[type=email] , .contact-form textarea {
+
+  border-color: #000000;
+stroke: #000000;
+border-width: 2px;
+background-color: #ffffff;
+border-style: solid;
+border-radius: 0;
+display: block;
+width: 70%;
+padding: 10px 12px;
+background-image: none;
+background-clip: padding-box;
+transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+color: inherit;
+height: auto;
+outline: none;
+overflow: visible;
+margin: auto;
+border-left-style: none;
+border-right-style: none;
+border-top-style: none;
+font-size: 16px;
+}
+#Contact {
+  width: 50%;
+  margin: auto;
+  
+}
+.contact-form input[type=submit]:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  color: #ffffff;
+  background-color: #333333;
+text-align: center;
+font-size: 1rem;
+line-height: 1.6;
+height: 100px;
+}
+
+.area {
+  width: 43%;
+  height: 50%;
+  position: absolute;
+  border: 2px dashed grey;
+  /*background-image: url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/upload-512.png");*/
+  background-image: url("images/upload.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 190px;
+  background-color: #ffffff;
+  border-radius: 3%;
+  margin-left: 420px;
+
+}
+
+.area input {
+  width: 400%;
+  height: 100%;
+  margin-left: -300%;
+  border: none;
+  cursor: pointer;
+}
+
+.area input:focus {
+  outline: none;
+}
+
+.area .spinner {
+  display: none;
+  margin-top: 50%;
+}
+
+.area:hover,
+.area.dragging,
+.area.uploading {
+  -khtml-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
+.area.uploading {
+  background: none;
+}
+
+#custom-btn {
+  width: 43%;
+  height: 7%;
+  position: absolute;
+  top: 568px;
+  left: 420px;
+}
+
+.reveal {
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.remove {
+  background-image: none;
+}
+
+#fileName {
+  font-size: 25px;
+  margin-top: 143px;
+  color: #454545;
+}
